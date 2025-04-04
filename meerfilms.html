@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Filmklassiekers</title>
+        <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="dist/css/lightbox.min.css">
+        <link rel="stylesheet" href="opmaak.css">
+    </head>
+    <body>
+        <div id="hoofdDIV">
+            <div id="header">
+                <script id="tui-tgny">(function(t){t.tgny={"id":"ythswmdgc71ma8ip",
+                    "size":"1100x75"}}(window.tweenui=window.tweenui||{}))</script>
+                <script src="https://s3-eu-west-1.amazonaws.com/display.tweenui.com/v.js" async></script>
+            </div>
+            <div id="menu">
+                <p><a href="index.html">
+                    <img src="media/knopGodfatherUit.png" class="knop" onmouseover="verander(this,'media/knopGodfatherAan.png')"
+                    onmouseout="verander(this, 'media/knopGodfatherUit.png')">
+                </a></p>
+                <p><a href="scarface.html">
+                    <img src="media/knopScarfaceUit.png" class="knop" onmouseover="verander(this, 'media/knopScarfaceAan.png')"
+                    onmouseout="verander(this, 'media/knopScarfaceUit.png')">
+                </a></p>
+                <p><a href="joker.html">
+                    <img src="media/knopJokerUit.png" class="knop" onmouseover="verander(this, 'media/knopJokerAan.png')"
+                    onmouseout="verander(this, 'media/knopJokerUit.png')">
+                </a></p>
+                <p><a href="thematrix.html">
+                    <img src="media/knopTheMatrixUit.png" class="knop" onmouseover="verander(this, 'media/knopTheMatrixAan.png')"
+                    onmouseout="verander(this, 'media/knopTheMatrixUit.png')">
+                </a></p>
+                <p><a href="terminator2.html">
+                    <img src="media/knopTerminator2Uit.png" class="knop" onmouseover="verander(this, 'media/knopTerminator2Aan.png')"
+                    onmouseout="verander(this, 'media/knopTerminator2Uit.png')">
+                </a></p>
+                <p><a href="meerfilms.html">
+                    <img src="media/knopMeerFilmsUit.png" class="knop" onmouseover="verander(this, 'media/knopMeerFilmsAan.png')"
+                    onmouseout="verander(this, 'media/knopMeerFilmsUit.png')">
+                </a></p>
+            </div>
+            <div id="inhoud">
+                <table id="afbeeldingTabel">
+                    <tr>
+                        <td colspan="3" id="titelPosters">
+                            Klik op een poster om hem te vergroten
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/AmericanHX.JPG" data-lightbox="slides"><img src="media/AmericanHX.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/DarkKnight.JPG" data-lightbox="slides"><img src="media/DarkKnight.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/Diehard.JPG" data-lightbox="slides"><img src="media/Diehard.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Donnie.JPG" data-lightbox="slides"><img src="media/Donnie.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/Gladiator.JPG" data-lightbox="slides"><img src="media/Gladiator.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/Pulpfiction.JPG" data-lightbox="slides"><img src="media/Pulpfiction.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Alien.JPG" data-lightbox="slides"><img src="media/Alien.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/Silence.JPG" data-lightbox="slides"><img src="media/Silence.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                        <td>
+                            <a href="media/StarWars.JPG" data-lightbox="slides"><img src="media/StarWars.JPG" class="afbeeldingKlein"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer">
+                <p><a href="mailto:robbe.boyen@leerling.hasp-o.be" class="customLink">Robbe Boyen - 2025</a></p>
+            </div>
+        </div>
+        <script>
+            function verander(knop, afbeelding){
+                knop.src = afbeelding;
+            }
+        </script>
+    </body>
+</html>
